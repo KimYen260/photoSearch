@@ -1,0 +1,73 @@
+.nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.nav ul {
+  display: flex;
+  padding: 1rem;
+  list-style: none;
+}
+.nav ul li {
+  padding: 0 0.5rem;
+}
+.nav ul li a {
+  padding: 0.8rem 1rem;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+.search button,
+.search input {
+  padding: 0.5rem;
+  border: 1px solid black;
+  font-size: 1rem;
+}
+.search button {
+  background-color: rgb(144, 207, 166);
+  color: white;
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.pictures .picture {
+  padding: 1rem;
+  width: 400px;
+}
+.pictures .picture .wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.pictures .picture .imgContainer {
+  overflow: hidden;
+  height: 100%;
+}
+.pictures .picture .imgContainer img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.3s ease;
+}
+.pictures .picture .imgContainer img:hover {
+  transform: scale(1.15);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=style.css.map */

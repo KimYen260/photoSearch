@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+
+  ul {
+    display: flex;
+    padding: 1rem;
+    list-style: none;
+    li {
+      padding: 0 0.5rem;
+      a {
+        padding: 0.8rem 1rem;
+      }
+    }
+  }
+}
