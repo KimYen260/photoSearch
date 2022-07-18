@@ -16,6 +16,10 @@ function Home() {
 
   //click for search
   const search = async (url) => {
+
+    if (input === ''){
+      url = initialURL
+    }
     const fetchData = await fetch(url, {
       method: 'GET',
       headers: {
