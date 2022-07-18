@@ -5,12 +5,12 @@ function Picture({ data }) {
     <div className='pictures'>
       <div className='picture'>
         <div className='imgContainer'>
-          <img src={data.src.medium} alt='' />
+          <img src={data.urls.small} alt='' />
         </div>
         <div className='wrap'>
-          <p>{data.photographer}</p>
+          <p>{data.user.name}</p>
           <p>
-            <a target='_blank' rel='noreferrer' href={data.src.medium}>
+            <a target='_blank' rel='noreferrer' href={data.urls.small}>
               Download
             </a>
           </p>

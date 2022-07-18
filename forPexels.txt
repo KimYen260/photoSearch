@@ -1,0 +1,7 @@
+auth = '563492ad6f91700001000001608250b352dd4be59995dfb2814b7a68'
+initialURL = 'https://api.pexels.com/v1/curated?page=1&per_page=15'
+searchURL = `https://api.pexels.com/v1/search?query=${input}&per_page=15&page=1`
+
+initialURL = 'https://api.pexels.com/v1/curated?page=1&per_page=15'
+searchURL = `https://api.unsplash.com/photos/?client_id=${auth}&query=${input}&per_page=15&page=1`
+https://api.unsplash.com/photos/?client_id=WnAKI9uPmOhHcLnMh3-djLjc6nkRl7tBHcYywooZrVI
