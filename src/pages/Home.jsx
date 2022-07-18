@@ -67,7 +67,7 @@ function Home() {
   })
 
   useEffect(() => {
-    if (keepPage === '') {
+    if (input === '') {
       search(initialURL)
     } else {
       search(searchURL)
